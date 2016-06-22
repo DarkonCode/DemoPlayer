@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">DemoPlayer</string>
+    <string name="function_one">DemoPlayer Function One</string>
+    <string name="function_two">DemoPlayer Function Two</string>
+    <string name="function_two_user">DemoPlayer Function Two - User</string>
+
+    <!--Default Activity-->
+    <string name="default_activity_feature_one">Function One</string>
+    <string name="default_activity_feature_two">Function Two</string>
+
+    <!--Function Two Main Activity-->
+    <string name="functionTwo_main_activity_submit">Submit</string>
+    <string name="functionTwo_main_activity_name_placeholder">Name</string>
+
+    <!--function Two User Activity-->
+    <string name="functionTwo_user_activity_close">Close</string>
+    <string name="functionTwo_user_activity_clear">Clear</string>
+    <string name="functionTwo_user_activity_welcome">Welcome %s</string>
+    <string name="functionTwo_user_activity_welcome_back">Welcome %s, thanks for returning, we hope you enjoy your stay!</string>
+
+    <!-- Dialog Ok -->
+    <string name="DialogOkTitle">Submission</string>
+    <string name="DialogOkMessage">Thanks for Registering!</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/activity_functionOne_mainActivity_trackList_image"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                fresco:fadeDuration="250"
+                fresco:placeholderImage="@drawable/ic_downloading_image"
+                fresco:failureImage="@drawable/ic_no_image_placeholder"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/activity_functionOne_mainActivity_trackList_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    tools:text="This is the description"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

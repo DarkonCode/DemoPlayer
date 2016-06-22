@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_functionTwo_mainLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_functionTwo_edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/functionTwo_main_activity_name_placeholder"
+                android:inputType="textCapWords"
+                style="@style/Widget.AppCompat.EditText"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/activity_functionTwo_btnSubmitName"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/functionTwo_main_activity_submit"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
